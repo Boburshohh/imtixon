@@ -1,0 +1,28 @@
+.footer{
+    background: #1B262F;
+    padding: 31px 0;
+}
+
+.footer__content{
+    display: flex;
+    align-items: center;
+    & > * + *{
+        margin-left: 64px;
+    }
+    .nav__link{
+        color: $footerLinkColor;
+    }
+}
+
+.footer__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__social{
+    display: flex;
+    & > * + *{
+        margin-left: 24px;
+    }
+}

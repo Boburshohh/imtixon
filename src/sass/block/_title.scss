@@ -1,0 +1,33 @@
+.title {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 1;
+  letter-spacing: -0.553846px;
+  color: #36536b;
+}
+
+.title-2 {
+  @extend %titleStyle;
+}
+
+.title-3 {
+  @extend %titleStyle;
+  color: #36536b;
+}
+
+.title-4 {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.39;
+  text-align: center;
+  letter-spacing: -0.138462px;
+  color: #36536b;
+}
+.main__title {
+  .title-2 {
+    color: #36536b;
+  }
+}

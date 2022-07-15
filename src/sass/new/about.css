@@ -1,0 +1,148 @@
+.header::before {
+  background-color: none !important;
+}
+
+.about__content {
+  width: 90%;
+  margin: 0 auto;
+  height: auto;
+  position: relative;
+}
+.about__content .about-text {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -0.430769px;
+  color: #36536B;
+  width: 730px;
+}
+.about__content .vision {
+  width: 100%;
+}
+.about__content .vision .vision_item {
+  width: 100%;
+  height: 112px;
+  margin-top: 51px;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+.about__content .vision .vision_item h2 {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.246154px;
+  color: #36536B;
+}
+.about__content .vision .vision_item p {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  color: #6C8294;
+  width: 635px;
+}
+.about__content .ready_to_start {
+  width: 70vw !important;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 96px;
+}
+
+.section-bg {
+  margin-top: 91px;
+  width: 100%;
+  max-height: 500px;
+}
+.section-bg .section-bg_1 {
+  position: absolute;
+  top: 700px;
+  left: 0;
+  z-index: -8984;
+  width: 260px;
+  height: 780px;
+}
+.section-bg .section-bg_2 {
+  width: 100%;
+}
+
+.team_member {
+  margin-top: 70px;
+  width: 100%;
+  height: auto;
+}
+.team_member .member-card {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.team_member .member-card .member-card_item {
+  width: 90%;
+}
+.team_member .member-card .member-card_item p {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #36536B;
+  mix-blend-mode: normal;
+  opacity: 0.7;
+}
+.team_member .member-card .member-card_item h1 {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 72px;
+  letter-spacing: -0.430769px;
+  color: #BA4270;
+}
+.team_member .vision {
+  width: 100%;
+}
+.team_member .vision .vision_item {
+  width: 100%;
+  height: 112px;
+  margin-top: 51px;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+.team_member .vision .vision_item h2 {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.246154px;
+  color: #36536B;
+}
+.team_member .vision .vision_item p {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  color: #6C8294;
+  width: 635px;
+}
+.team_member .ready_to_start {
+  width: 70vw !important;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-bottom: 96px;
+}
+.team_member .ready_to_start h1 {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.369231px;
+  color: #36536B;
+  margin-bottom: 96px;
+}/*# sourceMappingURL=about.css.map */

@@ -1,0 +1,89 @@
+.how-work {
+    background: #1B262F;
+    padding: 100px 0 51px;
+    position: relative;
+
+    .how-work__link {
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: (18 / 15);
+
+        text-align: center;
+        letter-spacing: -0.115385px;
+
+        color: #FBFCFE;
+        display: inline-block;
+        padding: 15px 32px;
+        border: 1px solid #FBFCFE;
+        border-radius: 24px;
+        text-decoration: none;
+    }
+
+    &::after{
+        content: "";
+        display: block;
+        width: 545px;
+        height: 421px;
+        background-image: url("./../img/how-work/how-work-bg.png");
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+}
+
+.how-work__desc {
+    max-width: 445px;
+    position: relative;
+    z-index: 2;
+
+    .desc__title {
+        margin-bottom: 24px;
+
+    }
+
+    .desc__text {
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 1.87;
+        color: $textColorWhite;
+
+        &>*+* {
+            margin-top: 15px;
+        }
+        margin-bottom: 32px;
+    }
+}
+
+.how-work__icons{
+    width: 536px;
+    .icons__row{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &:nth-child(odd){
+            .icon{
+                max-width: 145px;
+            }
+        }
+        &:nth-child(even){
+            .icon{
+                max-width: 137px;
+            }
+        }
+    }
+    & > * + *{
+        margin-top: 39px;
+    }
+}
+
+.how-work__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

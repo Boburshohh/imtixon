@@ -1,0 +1,21 @@
+.button {
+    outline: none;
+    border: none;
+    background: #BA4270;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    border-radius: 24px;
+    display: inline-block;
+    width: 173px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: (18 / 15);
+
+    letter-spacing: -0.115385px;
+
+    color: $buttonColor;
+
+    padding: ((48 - 15px)/2) 0;
+
+}

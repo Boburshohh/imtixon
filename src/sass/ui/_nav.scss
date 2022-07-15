@@ -1,0 +1,17 @@
+.nav__list {
+    display: flex;
+
+    &>*+* {
+        margin-left: 40px;
+    }
+
+    .nav__link {
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: (18 / 15);
+        color: $textColor;
+        text-decoration: none;
+    }
+}
